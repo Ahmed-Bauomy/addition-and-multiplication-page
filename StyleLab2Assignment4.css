@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+section{
+    border: 2px solid black;
+    margin: 200px auto;
+    width: 80%;
+    padding: 10px;
+    height: 200px;
+    display: -webkit-box;
+    border-radius: 40px 0;
+    background-color: yellow;
+    box-shadow: gray 10px 10px 5px;
+   
+}
+div{
+    border: 2px solid black;
+    margin: 10px auto;
+    padding-top: 70px ;
+    padding-left: 20px;
+    padding-right: 30px;
+    width: 35%;
+    border-radius: 20px;
+ }
+ input{
+     height: 40px;
+     width: 100px;
+     margin: 20px ;
+ }
+ .add{
+     background-color: rgb(233, 85, 85);
+     box-shadow: grey 10px 10px 50px inset;
+ }
+ .multi{
+     background-color: rgb(68, 224, 68);
+     box-shadow: grey 10px 10px 50px inset;
+ }
+ label{
+     font: bold 18px tahoma;
+ }
+
